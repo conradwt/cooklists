@@ -1,24 +1,79 @@
-# README
+# Cooklists
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<Project Description>
 
-Things you may want to cover:
+This app powers Cooklists located [here](https://sc-cooklists.herokuapp.com/)
 
-* Ruby version
+## Project Metrics
 
-* System dependencies
+## Getting Started
 
-* Configuration
+## Software requirements
 
-* Database creation
+- Rails 5.2.3 or higher
 
-* Database initialization
+- Ruby 2.6.x or higher
 
-* How to run the test suite
+- PostgreSQL 11.2.x or higher
 
-* Services (job queues, cache servers, search engines, etc.)
+## Navigate to the Rails application
 
-* Deployment instructions
+```
+$ cd /path/to/rails/application
+```
 
-* ...
+## Set configuration files
+
+e.g.
+
+```
+$ cp config/database.yml.template config/database.yml
+$ cp config/initializers/mail.rb.template config/initializers/mail.rb
+```
+
+Note: You may need to edit the above files as necessary for your system.
+
+## Create the database
+
+```
+$ pgstart
+$ rake db:create
+```
+
+## Migrating and seeding the database
+
+```
+$ rake db:migrate
+$ rake db:seed
+```
+
+## Starting the local server
+
+```
+$ rails server
+
+   or
+
+$ rails s
+```
+
+## Production Deployment
+
+```
+$ git push heroku master
+$ heroku run rake db:migrate
+```
+
+## Support
+
+Bug reports and feature requests can be filed with the rest for the Ruby on Rails project here:
+
+- [File Bug Reports and Features](https://github.com/conradwt/cooklists/issues)
+
+## License
+
+Kural For The Day is released under the [MIT license](https://mit-license.org).
+
+## Copyright
+
+copyright:: (c) Copyright 2019 Sean Cook. All Rights Reserved.
