@@ -74,7 +74,7 @@ Bug reports and feature requests can be filed with the rest for the Ruby on Rail
 
 ## License
 
-Kural For The Day is released under the [MIT license](https://mit-license.org).
+Cooklists For The Day is released under the [MIT license](https://mit-license.org).
 
 ## Copyright
 
