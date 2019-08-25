@@ -20,9 +20,9 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: localhost
   username: postgres
   password: password
+  host: localhost
 
 development:
   <<: *default
@@ -79,5 +79,5 @@ test:
 production:
   <<: *default
   database: cooklists_production
-  username: cooklists
-  password: <%= ENV['COOKLISTS_DATABASE_PASSWORD'] %>
+  #username: cooklists
+  #password: <%= ENV['COOKLISTS_DATABASE_PASSWORD'] %>
