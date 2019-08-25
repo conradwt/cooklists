@@ -1,0 +1,2 @@
+class CooklistsController < ApplicationController
+end
