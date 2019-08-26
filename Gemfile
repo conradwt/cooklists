@@ -28,7 +28,7 @@ group :development, :test do
 
   gem 'capybara',               '~> 3.26'
 
-  gem 'factory_bot',            '~> 5.0', '>= 5.0.2'
+  gem 'factory_bot_rails',      '~> 5.0', '>= 5.0.2'
 
   gem 'rspec-rails',            '~> 3.8', '>= 3.8.2'
 end
