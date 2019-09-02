@@ -4,6 +4,10 @@
 
 This app powers Cooklists located [here](https://sc-cooklists.herokuapp.com/)
 
+## Reading and Resources
+
+[Individual Project Guidelines](./INDIVIDUAL-PROJECT.md)
+
 ## Project Metrics
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/806f25fe32310d1648a9/maintainability)](https://codeclimate.com/github/conradwt/cooklists/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/806f25fe32310d1648a9/test_coverage)](https://codeclimate.com/github/conradwt/cooklists/test_coverage)
