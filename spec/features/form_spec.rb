@@ -17,5 +17,7 @@ RSpec.describe HomesController, type: :controller do
         end
       end
 
+    
+
 
 end
