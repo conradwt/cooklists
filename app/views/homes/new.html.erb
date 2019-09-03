@@ -1,0 +1,8 @@
+<h1>New playlist</h1>
+
+<%= simple_form_for @home do |f| %>
+  <%= f.input :name %>
+  <%= f.input :link %>
+  <%= f.input :description %>
+  <%= f.submit "Post!" %>
+<% end %>
