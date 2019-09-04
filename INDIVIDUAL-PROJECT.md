@@ -30,37 +30,34 @@
 
 8. enter all user stories within Github project
 
-   a) convert each Github note to a Github issue
-
-   b) add a task-list for each Github issue
+   <ol type="a">
+     <li>convert each Github note to a Github issue</li>
+     <li> add a task-list for each Github issue</li>
+   </ol>
 
    Note: https://www.mountaingoatsoftware.com/agile/user-stories
 
 9. for each user-story in user-stories
 
-   q. move the user-story into 'in progress' on Github Project
-
-   b. create a feature branch for the user-story
-
-   c. create feature spec file for the user-story
-
-   d. implement the user-story using TDD
-
-   e. submit a pull-request (PR) with issue(s) implemented for review
-
-   f. if PR is approved, mentor will merge into `master` branch and update Github project. The mentor will deploy to Heroku and go to (9a). Otherwise, go back to step (9d)
+   <ol type="a">
+     <li>move the user-story into 'in progress' on Github Project</li>
+     <li>create a feature branch for the user-story</li>
+     <li>create feature spec file for the user-story</li>
+     <li>implement the user-story using TDD</li>
+     <li>submit a pull-request (PR) with issue(s) implemented for review</li>
+     <li>if PR is approved, mentor will merge into `master` branch and update Github project. The mentor will deploy to Heroku and go to (9a). Otherwise, go back to step (9d)</li>
+   </ol>
 
    Note: FYI, if the user story is `As a user, I can create a widget`, then the branch name should be something like `user-creates-widget` and the feature spec should be `user_creates_widget_spec.rb`.
 
 10. create a project video and it should contain the following:
 
-    a) student's full name
-
-    b) project's name
-
-    c) project overview
-
-    d) demonstration
+    <ol type="a">
+      <li>student's full name</li>
+      <li>project's name</li>
+      <li>project overview</li>
+      <li>demonstration</li>
+    </ol>
 
 ## Have Questions
 
