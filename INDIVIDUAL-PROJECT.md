@@ -29,26 +29,38 @@
 ## Student Actionable Items
 
 8. enter all user stories within Github project
-   a. convert each Github note to a Github issue
-   b. add a task-list for each Github issue
+
+   a) convert each Github note to a Github issue
+
+   b) add a task-list for each Github issue
 
    Note: https://www.mountaingoatsoftware.com/agile/user-stories
 
 9. for each user-story in user-stories
-   a. move the user-story into 'in progress' on Github Project
+
+   q. move the user-story into 'in progress' on Github Project
+
    b. create a feature branch for the user-story
+
    c. create feature spec file for the user-story
-   c. implement the user-story using TDD
-   d. submit a pull-request (PR) with issue(s) implemented for review
-   e. if PR is approved, mentor will merge into `master` branch and update Github project. The student will deploy to Heroku and go to (9a). Otherwise, go back to step (9c)
+
+   d. implement the user-story using TDD
+
+   e. submit a pull-request (PR) with issue(s) implemented for review
+
+   f. if PR is approved, mentor will merge into `master` branch and update Github project. The mentor will deploy to Heroku and go to (9a). Otherwise, go back to step (9d)
 
    Note: FYI, if the user story is `As a user, I can create a widget`, then the branch name should be something like `user-creates-widget` and the feature spec should be `user_creates_widget_spec.rb`.
 
 10. create a project video and it should contain the following:
 
-    a. full name
-    b. project overview
-    c. demonstration
+    a) student's full name
+
+    b) project's name
+
+    c) project overview
+
+    d) demonstration
 
 ## Have Questions
 
