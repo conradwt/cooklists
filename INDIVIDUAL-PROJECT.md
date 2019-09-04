@@ -35,13 +35,14 @@
    Note: https://www.mountaingoatsoftware.com/agile/user-stories
 
 9. for each user-story in user-stories
-   a. create a feature branch for the user story
-   b. move the user-story into 'in progess' on Github Project
-   c. implement the user-story
+   a. move the user-story into 'in progress' on Github Project
+   b. create a feature branch for the user-story
+   c. create feature spec file for the user-story
+   c. implement the user-story using TDD
    d. submit a pull-request (PR) with issue(s) implemented for review
    e. if PR is approved, mentor will merge into `master` branch and update Github project. The student will deploy to Heroku and go to (9a). Otherwise, go back to step (9c)
 
-   Note: FYI, if the user story is `As a user, I can create a widget`, then the branch name should be something like _user-creates-widget_ and the feature spec should be _user_creates_widget_spec.rb_.
+   Note: FYI, if the user story is `As a user, I can create a widget`, then the branch name should be something like `user-creates-widget` and the feature spec should be `user_creates_widget_spec.rb`.
 
 10. create a project video and it should contain the following:
 
